@@ -8,5 +8,5 @@ runs-on: ubuntu-latest
 
 steps:
 
--name: first-steps
+- name: first-steps
 run: echo "hello world"
