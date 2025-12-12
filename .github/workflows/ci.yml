@@ -1,7 +1,9 @@
-name: manual-workflow
+name: Branches workflow
 
 on: 
- workflow_dispatch: 
+ push:
+  branches:
+   - main
 
 jobs:
 
@@ -9,7 +11,5 @@ jobs:
    runs-on: ubuntu-latest
 
    steps:
-    - name: first-steps
-      run: |
-       echo "hello world manual" 
-       echo "hello again manual"
+    - name: main-branch-steps
+      run: echo "main branch workflow"
