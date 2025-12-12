@@ -1,6 +1,6 @@
-name: first-workflow
+name: manual-workflow
 
-on: push
+on: workflow_dispatch
 
 jobs:
 
