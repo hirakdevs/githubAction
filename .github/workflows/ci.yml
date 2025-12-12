@@ -1,7 +1,7 @@
 name: manual-workflow
 
 on: 
- workflow_dispatch:
+ workflow_dispatch: 
 
 jobs:
 
@@ -11,5 +11,5 @@ jobs:
    steps:
     - name: first-steps
       run: |
-       echo "hello world manual"
+       echo "hello world manual" 
        echo "hello again manual"
